@@ -1,3 +1,3 @@
-FROM tomcat:8
+FROM tomcat:10
 # Take the war and copy to webapps of tomcat
-COPY target/*.war /usr/local/tomcat/webapps/dockeransible.war
+COPY target/*.war /opt/tomcat/webapps/dockeransible.war
